@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+button {
+  cursor: pointer;
+  color: purple;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 2px 5px;
+}
+.error,
+.success {
+  background: rgb(100, 100, 100);
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.error {
+  color: red;
+}
+.header-title,
+.success {
+  color: green;
+}
+.header-title,
+.active-user {
+  font-weight: bold;
+}
+#new-blog-btn {
+  background-color: rgb(43, 192, 90);
+  margin-bottom: 20px;
+}
+#cancel-btn {
+  margin-bottom: 20px;
+}
+.blog {
+  padding: 10px 4px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+#like-btn {
+  background-color: rgba(0, 242, 255, 0.363);
+}
+
+#logout-btn,
+#delete-btn {
+  background-color: rgb(143, 0, 12);
+}
